@@ -9,13 +9,14 @@ window.MAX_AREA = window.MAX_AREA || 15000 * 15000;
 window.EXPORT_URL = window.EXPORT_URL || '/export';
 window.SAVE_URL = window.SAVE_URL || '/save';
 window.OPEN_URL = window.OPEN_URL || '/open';
+window.RUN_URL = window.RUN_URL || '/open';
 window.RESOURCES_PATH = window.RESOURCES_PATH || './static/resources';
 window.RESOURCE_BASE = window.RESOURCE_BASE || window.RESOURCES_PATH + '/grapheditor';
-window.STENCIL_PATH = window.STENCIL_PATH || 'stencils';
-window.IMAGE_PATH = window.IMAGE_PATH || 'images';
+window.STENCIL_PATH = window.STENCIL_PATH || './static/stencils';
+window.IMAGE_PATH = window.IMAGE_PATH || './static/images';
 window.STYLE_PATH = window.STYLE_PATH || './static/styles';
-window.CSS_PATH = window.CSS_PATH || 'staticstyles';
-window.OPEN_FORM = window.OPEN_FORM || 'open.html';
+window.CSS_PATH = window.CSS_PATH || './static/styles';
+window.OPEN_FORM = window.OPEN_FORM || 'open';
 
 // Sets the base path, the UI language via URL param and configures the
 // supported languages to avoid 404s. The loading of all core language
